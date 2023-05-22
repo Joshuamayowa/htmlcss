@@ -1,0 +1,45 @@
+body{
+    font-family: 'Dancing Script', cursive;
+    margin: 20px;
+    background-color: brown;
+    color: black;
+    text-align: center;
+}
+h1{
+    font-family: 'Lobster', cursive;
+margin: auto;
+border: 20rem;
+}
+main{
+width: 75%;
+justify-content: center;
+}
+p{
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+img{
+    max-resolution: auto;
+    border-top: 20px solid;
+    border-bottom: 20px groove;
+    border-radius: 40px;
+    max-width: 50%;
+    height: auto;
+    display: inline-block;
+}
+h2{
+    text-align: center;
+}
+ul{
+    font-size: large;
+    text-align: left;
+}
+a{
+    color: aqua;
+    text-decoration: wavy;
+}
+a:hover{
+    color: blue;
+    text-decoration: underline green;
+}
