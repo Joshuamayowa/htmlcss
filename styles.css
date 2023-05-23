@@ -1,8 +1,10 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap');
 body{
     font-family: 'Dancing Script', cursive;
     margin: 20px;
-    background-color: brown;
-    color: black;
+    background-color: blue;
+    color: white;
     text-align: center;
 }
 h1{
@@ -11,22 +13,24 @@ margin: auto;
 border: 20rem;
 }
 main{
-width: 75%;
-justify-content: center;
+    margin: auto;
+    width: 75%;
+    justify-content: center;
 }
 p{
-    margin-bottom: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 10px
     text-align: center;
 
 }
 img{
-    max-resolution: auto;
+    max-width: 450px;
+    max-height: 450px;
     border-top: 20px solid;
     border-bottom: 20px groove;
-    border-radius: 40px;
-    max-width: 50%;
-    height: auto;
-    display: inline-block;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
 }
 h2{
     text-align: center;
@@ -34,7 +38,13 @@ h2{
 ul{
     font-size: large;
     text-align: left;
+    text-align: justify;
+    margin: auto;
+    padding: 30px;
+    line-height: 2em;
+
 }
+
 a{
     color: aqua;
     text-decoration: wavy;
